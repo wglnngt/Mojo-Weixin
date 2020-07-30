@@ -1,4 +1,5 @@
-Mojo-Weixin v1.4.3 [![Build Status](https://travis-ci.org/sjdy521/Mojo-Weixin.svg?branch=master)](https://travis-ci.org/sjdy521/Mojo-Weixin) [![Join the chat at https://gitter.im/sjdy521/Mojo-Weixin](https://badges.gitter.im/sjdy521/Mojo-Weixin.svg)](https://gitter.im/sjdy521/Mojo-Weixin?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![API列表](https://img.shields.io/badge/doc-API%E5%88%97%E8%A1%A8-brightgreen.svg)](API.md) [![QQ群-498880156](https://img.shields.io/badge/QQ%E7%BE%A4-498880156-blue.svg)](http://jq.qq.com/?_wv=1027&k=kjVJzo) [![IRC](https://img.shields.io/badge/IRC-%E5%AE%98%E6%96%B9%E9%A2%91%E9%81%93-yellow.svg)](http://irc.perfi.wang/?channel=#Mojo-Webqq)
+Mojo-Weixin v1.4.6 [![Build Status](https://travis-ci.org/sjdy521/Mojo-Weixin.svg?branch=master)](https://travis-ci.org/sjdy521/Mojo-Weixin) [![API列表](https://img.shields.io/badge/doc-API%E5%88%97%E8%A1%A8-brightgreen.svg)](API.md) [![QQ群-498880156](https://img.shields.io/badge/QQ%E7%BE%A4-498880156-blue.svg)](http://jq.qq.com/?_wv=1027&k=kjVJzo) [![IRC](https://img.shields.io/badge/IRC-%E5%AE%98%E6%96%B9%E9%A2%91%E9%81%93-yellow.svg)](http://irc.perfi.wang/?channel=#Mojo-Webqq)
+[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 ========================
 
 使用Perl语言编写的微信客户端框架，基于Mojolicious，要求Perl版本5.10+，可通过插件提供基于HTTP协议的api接口供其他语言或系统调用
@@ -112,7 +113,7 @@ Mojo-Weixin v1.4.3 [![Build Status](https://travis-ci.org/sjdy521/Mojo-Weixin.sv
 
 2. *安装cpanm工具*（如果系统已经安装了cpanm可以忽略此步骤）
 
-    方法a： 通过cpan安装cpanm
+    方法a： 通过cpan安装cpanm（只适用于root用户）
 
         $ cpan -i App::cpanminus
     
@@ -253,6 +254,9 @@ Mojo-Weixin v1.4.3 [![Build Status](https://travis-ci.org/sjdy521/Mojo-Weixin.sv
 * [WeixinBot](https://github.com/Urinx/WeixinBot) 网页版微信API，包含终端版微信及微信机器人
 * [ItChat](https://github.com/littlecodersh/ItChat) 微信个人号接口、微信机器人及命令行微信。三十行即可自定义个人号机器人
 
+*Java*
+* [wechat-client](https://github.com/dadiyang/wechat-client) Mojo-Weixin HTTP 接口 的 Java 客户端，非常感谢 @dadiyang 贡献
+
 ### 赞助奖励
 
 可以通过扫描支付宝付款二维码进行赞助，感谢您的支持和鼓励
@@ -265,4 +269,4 @@ Mojo-Weixin v1.4.3 [![Build Status](https://travis-ci.org/sjdy521/Mojo-Weixin.sv
 
 Copyright (C) 2014 by sjdy521
 
-This library is free software; you can redistribute it and/or modify it under [BSD 2-clause "Simplified" license](LICENSE)
+This library is free software; you can redistribute it and/or modify it under [MIT License](LICENSE) and [Anti 996 License](LICENSE.996ICU)
